@@ -1,9 +1,10 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom'; // Cambia a createHashRouter
 import { MainLayout } from '../layouts/MainLayout';
 import { HomePage } from '../pages/HomePage';
 import { ChatPage } from '../pages/ChatPage';
 
-const router = createBrowserRouter([
+// Cambia createBrowserRouter por createHashRouter
+const router = createHashRouter([
   {
     path: '/',
     element: <MainLayout />,
