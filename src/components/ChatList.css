@@ -1,0 +1,14 @@
+.chat-list {
+  flex: 1;
+  overflow-y: auto;
+  background-color: var(--background-dark);
+}
+
+/* Estilo para cuando no hay chats */
+.chat-list:empty::after {
+  content: 'No hay chats disponibles';
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: var(--text-secondary);
+}

@@ -1,0 +1,13 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.welcome-message h1 {
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}

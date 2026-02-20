@@ -1,0 +1,24 @@
+.message-bubble {
+  max-width: 65%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.message-bubble.mine {
+  align-self: flex-end;
+  background-color: var(--message-out);
+}
+
+.message-bubble.theirs {
+  align-self: flex-start;
+  background-color: var(--message-in);
+}
+
+.message-time {
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-align: right;
+  margin-top: 4px;
+}
